@@ -1,0 +1,10 @@
+2026-09-25 10:01:22 INFO user-service Request received user_id=123
+2026-09-25 10:01:23 INFO user-service Request completed status=200
+2026-09-25 10:02:11 ERROR payment-service Database connection failed
+2026-09-25 10:02:12 ERROR payment-service Request failed status=500
+2026-09-25 10:03:01 WARN payment-service Retry attempt=1
+2026-09-25 10:03:03 INFO payment-service Request completed status=200
+2026-09-25 10:04:15 ERROR order-service Timeout connecting to payment-service
+INVALID
+hello
+2026-09-25 10:05:00 DEBUG payment-service Starting retryINFO:__main__:Starting log parser
